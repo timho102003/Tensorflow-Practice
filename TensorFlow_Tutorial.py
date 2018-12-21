@@ -25,8 +25,8 @@ f_b = tf.assign(b, [0.004])
 sess.run([f_Wi, f_b])
 print(sess.run(cost, feed_dict={xx:[3.5, 4.0, 7.2, 5.3, 6.1], yy : [1.0, 2.0, 3.0, 4.0, 5.0]}))
 
-writer = tf.summary.FileWriter('log/Practice_Log', tf.get_default_graph())
-writer.close()
+#writer = tf.summary.FileWriter('log/Practice_Log', tf.get_default_graph())
+#writer.close()
 
 '''
 # Placeholder
